@@ -56,7 +56,7 @@ xui.Class('Module.card', 'xui.Module',{
             
             host.xui_ui_block6.append(
                 xui.create("xui.UI.Label")
-                .setHost(host,"xui_ui_label3")
+                .setHost(host,"name")
                 .setLeft("12.5em")
                 .setTop("1.6666666666666667em")
                 .setWidth("5.583333333333333em")
@@ -68,7 +68,7 @@ xui.Class('Module.card', 'xui.Module',{
             
             host.xui_ui_block6.append(
                 xui.create("xui.UI.Label")
-                .setHost(host,"xui_ui_label4")
+                .setHost(host,"age")
                 .setLeft("12.5em")
                 .setTop("5em")
                 .setWidth("5.916666666666667em")
