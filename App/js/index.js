@@ -20,6 +20,29 @@ xui.Class('App', 'xui.Module',{
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
             
+            append(
+                xui.create("xui.UI.Panel")
+                .setHost(host,"xui_ui_panel5")
+                .setDock("none")
+                .setLeft("6.666666666666667em")
+                .setTop("5em")
+                .setWidth("53.333333333333336em")
+                .setHeight("28.333333333333332em")
+                .setCaption("用户列表")
+            );
+            
+            host.xui_ui_panel5.append(
+                xui.create("xui.UI.List")
+                .setHost(host,"xui_ui_list3")
+                .setDirtyMark(false)
+                .setDock("fill")
+                .setLeft("7em")
+                .setTop("2.1666666666666665em")
+                .setBorderType("none")
+                .setItemRow("cell")
+                .setValue("a")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
