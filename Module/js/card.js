@@ -30,6 +30,8 @@ xui.Class('Module.card', 'xui.Module',{
                 .setTop("0em")
                 .setWidth("23.333333333333332em")
                 .setHeight("9.166666666666666em")
+                .setPosition("relative")
+                .setDisplay("inline-block")
                 .setBorderType("groove")
             );
             
