@@ -35,6 +35,44 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.List")
                 .setHost(host,"xui_ui_list3")
                 .setDirtyMark(false)
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"a",
+                        "renderer":"Module.card",
+                        "tagVar":{
+                            "name":"张三",
+                            "age":18
+                        }
+                    },
+                    {
+                        "id":"b",
+                        "caption":"b",
+                        "renderer":"Module.card",
+                        "tagVar":{
+                            "name":"李四\n",
+                            "age":19
+                        }
+                    },
+                    {
+                        "id":"c",
+                        "caption":"c",
+                        "renderer":"Module.card",
+                        "tagVar":{
+                            "name":"王五",
+                            "age":22
+                        }
+                    },
+                    {
+                        "id":"d",
+                        "caption":"d",
+                        "renderer":"Module.card",
+                        "tagVar":{
+                            "name":"王志",
+                            "age":20
+                        }
+                    }
+                ])
                 .setDock("fill")
                 .setLeft("7em")
                 .setTop("2.1666666666666665em")
