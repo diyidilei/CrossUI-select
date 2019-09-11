@@ -41,8 +41,8 @@ xui.Class('App', 'xui.Module',{
                         "caption":"a",
                         "renderer":"Module.card",
                         "tagVar":{
-                            "name":"张三",
-                            "age":18
+                            "name > caption":"张三",
+                            "age > caption":18
                         }
                     },
                     {
@@ -50,8 +50,8 @@ xui.Class('App', 'xui.Module',{
                         "caption":"b",
                         "renderer":"Module.card",
                         "tagVar":{
-                            "name":"李四\n",
-                            "age":19
+                            "name > caption":"李四\n",
+                            "age > caption":19
                         }
                     },
                     {
@@ -59,8 +59,8 @@ xui.Class('App', 'xui.Module',{
                         "caption":"c",
                         "renderer":"Module.card",
                         "tagVar":{
-                            "name":"王五",
-                            "age":22
+                            "name > caption":"王五",
+                            "age > caption":22
                         }
                     },
                     {
@@ -68,8 +68,8 @@ xui.Class('App', 'xui.Module',{
                         "caption":"d",
                         "renderer":"Module.card",
                         "tagVar":{
-                            "name":"王志",
-                            "age":20
+                            "name > caption":"王志",
+                            "age > caption":20
                         }
                     }
                 ])
