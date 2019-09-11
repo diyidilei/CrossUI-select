@@ -19,7 +19,18 @@ xui.Class('App', 'xui.Module',{
         iniComponents : function(){
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
-
+            
+            append(
+                xui.create("xui.UI.Panel")
+                .setHost(host,"xui_ui_panel4")
+                .setDock("none")
+                .setLeft("5em")
+                .setTop("5.833333333333333em")
+                .setWidth("52.5em")
+                .setHeight("30.833333333333332em")
+                .setCaption("数据列表")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
