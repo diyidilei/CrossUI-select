@@ -8,7 +8,10 @@ xui.Class('Module.card', 'xui.Module',{
         // Required modules
         Required:[],
         // To initialize properties
-        properties : {},
+        properties : {
+            "name > caption":null,
+            "age > caption":null
+        },
 
         // To initialize instance(e.g. properties)
         initialize : function(){
