@@ -31,6 +31,66 @@ xui.Class('App', 'xui.Module',{
                 .setCaption("数据列表")
             );
             
+            host.xui_ui_panel4.append(
+                xui.create("xui.UI.List")
+                .setHost(host,"xui_ui_list2")
+                .setDirtyMark(false)
+                .setItems([
+                    {
+                        "id":"d",
+                        "caption":"rendered as a Module",
+                        "renderer":"Module.card",
+                        "tagVar":{
+                            "v_avatar > src":"{/}img/f1.png",
+                            "v_name > caption":"Angelica Geary",
+                            "v_title > caption":"Sales Representative"
+                        }
+                    },
+                    {
+                        "id":"e",
+                        "caption":"rendered as a Module",
+                        "renderer":"Module.card",
+                        "tagVar":{
+                            "v_avatar > src":"{/}img/f2.png",
+                            "v_name > caption":"Arlene Sharman",
+                            "v_title > caption":"Sales Representative"
+                        }
+                    },
+                    {
+                        "id":"f",
+                        "caption":"rendered as a Module",
+                        "renderer":"Module.card",
+                        "tagVar":{
+                            "v_avatar > src":"{/}img/f3.png",
+                            "v_name > caption":"Hortense Tinker",
+                            "v_title > caption":"Sales Representative"
+                        }
+                    },
+                    {
+                        "id":"g",
+                        "caption":"rendered as a Module",
+                        "renderer":"Module.card",
+                        "tagVar":{
+                            "v_avatar > src":"{/}img/f4.png",
+                            "v_name > caption":"Leilah Gregory",
+                            "v_title > caption":"Sales Assistant"
+                        }
+                    }
+                ])
+                .setDock("fill")
+                .setLeft("13.333333333333334em")
+                .setTop("2.5em")
+                .setWidth("58.333333333333336em")
+                .setHeight("14.166666666666666em")
+                .setRenderer("")
+                .setBorderType("none")
+                .setItemRow("cell")
+                .setLabelPos("none")
+                .setLabelGap("4.166666666666667em")
+                .setLabelHAlign("")
+                .setValue("")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
